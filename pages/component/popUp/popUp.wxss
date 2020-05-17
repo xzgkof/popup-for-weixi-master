@@ -1,0 +1,48 @@
+.popUpModal{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.shadow{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.popUp{
+  z-index: 101;
+  background: white;
+  position: fixed;
+  top: 30%;
+  width: 80%;
+  left: 10%;
+  border-radius: 10rpx;
+}
+.title{
+  text-align: center;
+  padding: 10rpx 0;
+  font-size: 36rpx;
+}
+.content{
+  padding: 20rpx 30rpx;
+  font-size: 34rpx;
+}
+.foot{
+  display: flex;
+  text-align: center;
+  border-top: 1rpx solid #DDD;
+  line-height: 2.5;
+}
+.cancelBtn{
+  flex: 1;
+}
+.sureBtn{
+  flex: 1;
+  color: #60D048;
+  border-left: 1rpx solid #DDD;
+}

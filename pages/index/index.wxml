@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+    <button catchtap='showModal'>打开弹窗</button>
+</view>
+<c-pop-up bind:closepopup="modalClosed" is-show-pop-up="{{isShowModal}}">
+  <view slot="title">
+    <view>
+      这里是标题
+    </view>
+  </view>
+  <view slot="content">
+    <view>
+      这里是内容<text class='red'>可以自定义样式</text>
+    </view>
+    <textarea placeholder='啥都能放'></textarea>
+  </view>
+</c-pop-up>

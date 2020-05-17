@@ -1,0 +1,14 @@
+<view catchtouchmove='prevent' wx:if="{{isShowPopUp}}">
+  <view class='popUpModal'>
+    <view class='shadow' wx:if="{{isShowShadow}}"></view>
+    <view class='popUp'>
+      <view class='title'><slot name="title"></slot></view>
+      <view class='content'><slot name="content"></slot></view>
+      <view class='foot' wx:if="{{isShowFooter}}">
+        <view class='cancelBtn' catchtap='clickCancel'>取消</view>
+        <view class='sureBtn' catchtap='clickSure'>确定</view>
+      </view>
+    </view>
+    
+  </view>
+</view>

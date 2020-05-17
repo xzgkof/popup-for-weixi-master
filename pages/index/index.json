@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "c-pop-up": "../component/popUp/popUp"
+  }
+}
